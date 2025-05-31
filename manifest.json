@@ -1,0 +1,10 @@
+{
+  "manifest_version": 3,
+  "version": "1.0",
+  "name": "Leads Tracker Browser Extension",
+  "action": {
+    "default_popup": "index.html",
+    "default_icon": "jericho.icon.png"
+  },
+  "permissions": ["tabs"]
+}
