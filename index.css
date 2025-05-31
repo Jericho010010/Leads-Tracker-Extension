@@ -33,14 +33,15 @@ button {
 }
 ul {
   padding: 0;
-  margin-top: 1.5rem;
+  margin-top: 1rem;
 }
 a {
   color: #6c63ff;
   font-size: 14px;
 }
+
 li {
   list-style: none;
   margin-top: 8px;
-  display: inline-block;
+  margin-top: 1rem;
 }

@@ -23,7 +23,7 @@ tabBtn.addEventListener("click", function () {
 function render(leads) {
   let listItems = "";
   for (let i = 0; i < leads.length; i++) {
-    listItems += `<i><a target="_blank" href="${leads[i]}">${leads[i]}</a></i>`;
+    listItems += `<li><a target="_blank" href="${leads[i]}">${leads[i]}</a></li>`;
   }
   ulElement.innerHTML = listItems;
 }
